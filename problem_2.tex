@@ -1,0 +1,48 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\def\infinity{\rotatebox{90}{8}}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=15mm,
+ top=15mm,
+ right=15mm,
+ bottom=15mm
+ }
+
+\title{SOEN 6011 Project - Calculato-F3}
+\author{Prashantkumar Patel - 40046876}
+
+\begin{document}
+
+\maketitle
+
+\section {Requirements} 
+\subsection \normalfont \fontsize{12}{16} {ID: REQ-1 \newline Type : Functional Requirement
+\newline Priority: 1 ( 1- Highest, 5 - Lowest )
+\newline Description: if the user provides input of real number x, the system should calculate and display the hyperbolic sine value for the given input.
+}
+\subsection \normalfont \fontsize{12}{16} {ID: REQ-2 \newline Type : Functional Requirement
+\newline Priority: 1 ( 1- Highest, 5 - Lowest )
+\newline Description: if the user provides input other than a number, such as special character or alphabet then function should not produce any value.
+}
+\section{Assumptions}
+\subsection \normalfont \fontsize{12}{16} {ID: ASSUMPTION-1 \newline Description: Mathematically hyperbolic sine function has a domain of all possible real numbers. As function will be implemented on the computer using java as a programming language, there is a limitation on user input because of the datatype.
++ 1.79769313486231570E+308  is the maximum input number that the user can provide and \newline -1.79769313486231570E+308 is the minimum number that the user can provide.
+}
+\subsection \normalfont \fontsize{12}{16} {ID: ASSUMPTION-2 \newline Description: As the user can provide decimal numbers as input, there is a limitation on the number of decimal points considered for the calculation due to the data type used. First 10 decimal points will be considered as a significant decimal point
+}
+\begin{thebibliography}{9}
+\bibitem{} 
+\url{http://www.mathcentre.ac.uk/resources/workbooks/mathcentre/hyperbolicfunctions.pdf}
+ 
+\bibitem{} 
+\url{https://www.analyzemath.com/DomainRange/domain_range_functions.html}
+ 
+\bibitem{} 
+\url{http://functions.wolfram.com/ElementaryFunctions/Sinh/04/}
+\end{thebibliography}
+\end{document}
