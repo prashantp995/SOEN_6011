@@ -18,7 +18,7 @@ public class SinhFunction {
    * @param x real number provided by user
    * @return calculated value of e power x
    */
-  private static double ePowerX(double x) {
+  double ePowerX(double x) {
     double result = 1;
 
     for (int i = SinhFunction.maxSteps - 1; i > 0; --i) {
@@ -28,8 +28,7 @@ public class SinhFunction {
     return result;
   }
 
-  public static void main(String[] args) {
-    printWelcomeMessage();
+  void InitCalculation() {
     Scanner scanner = new Scanner(System.in);
     if (scanner.hasNextDouble()) {
       double x = scanner.nextDouble();
@@ -47,7 +46,7 @@ public class SinhFunction {
 
   }
 
-  private static void validateAndCalculateSinhx(double x, double ePowerx, double ePowerMinusx) {
+  public void validateAndCalculateSinhx(double x, double ePowerx, double ePowerMinusx) {
     if (Validator.validateOutputRange(ePowerx) && Validator.validateOutputRange(ePowerMinusx)) {
       double result = calculateSinh(ePowerx, ePowerMinusx);
       System.out.print(UIMessages.SUCCESS_MESSAGE + x + " is ");
@@ -61,7 +60,7 @@ public class SinhFunction {
    *
    * @return result of sinh based on input
    */
-  private static double calculateSinh(double ePowerx, double ePowerMinusx) {
+  public double calculateSinh(double ePowerx, double ePowerMinusx) {
     if (Validator.validateOutputRange(ePowerx)) {
       Validator.validateOutputRange(ePowerMinusx);
     }
@@ -70,10 +69,4 @@ public class SinhFunction {
   }
 
 
-  private static void printWelcomeMessage() {
-    System.out.println(UIMessages.DOTS);
-    System.out.println(UIMessages.WELCOME_MESSAGE);
-    System.out.println(UIMessages.DOTS);
-    System.out.println(UIMessages.INPUT_MESSAGE);
-  }
 }
