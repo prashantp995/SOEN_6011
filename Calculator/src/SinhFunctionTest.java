@@ -28,7 +28,7 @@ public class SinhFunctionTest {
   @Test
   public void InitCalculation_invalidInput() {
     SinhFunction sinhFunction = new SinhFunction();
-    ByteArrayInputStream input = new ByteArrayInputStream("My string".getBytes());
+    ByteArrayInputStream input = new ByteArrayInputStream("This is non number input".getBytes());
     System.setIn(input);
     sinhFunction.InitCalculation();
     Assert.assertTrue(UIMessages.ERROR_MESSAGE.equalsIgnoreCase(outContent.toString().trim()));
@@ -38,7 +38,8 @@ public class SinhFunctionTest {
   @Test
   public void InitCalculation_validInput() {
     SinhFunction sinhFunction = new SinhFunction();
-    ByteArrayInputStream input = new ByteArrayInputStream("1".getBytes());
+    ByteArrayInputStream input = new ByteArrayInputStream(
+        "1".getBytes());//input will be passed as number , not string
     System.setIn(input);
     sinhFunction.InitCalculation();
     System.out.println(outContent.toString().trim().contains("1.17520119364"));
