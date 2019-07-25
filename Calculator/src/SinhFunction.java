@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -6,7 +7,7 @@ import java.util.Scanner;
  *
  * @author :prashantkumar patel
  */
-public class SinhFunction {
+class SinhFunction {
 
   private static final int maxSteps = 15;
   private static final double divisor = 2d;
@@ -33,6 +34,9 @@ public class SinhFunction {
     if (scanner.hasNextDouble()) {
       double x = scanner.nextDouble();
       if (Validator.validateInputRange(x)) {
+        //As per assumption consider only first 15 decimal points from input
+        DecimalFormat df = new DecimalFormat(".###############");
+        x = Double.parseDouble(df.format(x));
         double ePowerx = ePowerX(x);
         double ePowerMinusx = ePowerX(-x);
         validateAndCalculateSinhx(x, ePowerx, ePowerMinusx);
