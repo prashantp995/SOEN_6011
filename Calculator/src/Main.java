@@ -5,8 +5,14 @@ public class Main {
   public static void main(String[] args) {
     printWelcomeMessage();
     SinhFunction sinhFunction = new SinhFunction();
-    sinhFunction.InitCalculation();
-    continueApplication(sinhFunction);
+    try {
+      sinhFunction.InitCalculation();
+      continueApplication(sinhFunction);
+    } catch (Exception e) {
+      System.out.println(UIMessages.ERROR_MESSAGE_PROGRAM_STOPPED);
+      System.out.println(e.getMessage());
+    }
+
   }
 
   private static void continueApplication(SinhFunction sinhFunction) {

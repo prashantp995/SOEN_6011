@@ -15,4 +15,6 @@ class UIMessages {
       "Output value is less than supported value " + Double.MIN_VALUE + "";
   static final String ERROR_INVALID_CHOICE =
       "invalid choice, please follow the instruction";
+  static final String ERROR_MESSAGE_PROGRAM_STOPPED =
+      "\n Calculator Program stopped unexpectedly,Please re run program\n";
 }
