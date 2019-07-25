@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/Calculator/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="artifact" artifact-name="SOEN_6011_Summer_2019:jar" />
+    </root>
+  </artifact>
+</component>

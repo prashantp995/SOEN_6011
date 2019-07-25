@@ -28,7 +28,7 @@ public class SinhFunctionTest {
   @Test
   public void InitCalculation_invalidInput() {
     SinhFunction sinhFunction = new SinhFunction();
-    ByteArrayInputStream input = new ByteArrayInputStream("This is non number input".getBytes());
+    ByteArrayInputStream input = new ByteArrayInputStream("This is non number invalid input".getBytes());
     System.setIn(input);
     sinhFunction.InitCalculation();
     Assert.assertTrue(UIMessages.ERROR_MESSAGE.equalsIgnoreCase(outContent.toString().trim()));
@@ -42,13 +42,18 @@ public class SinhFunctionTest {
         "1".getBytes());//input will be passed as number , not string
     System.setIn(input);
     sinhFunction.InitCalculation();
-    System.out.println(outContent.toString().trim().contains("1.17520119364"));
+    Assert.assertTrue(outContent.toString().trim().contains("1.17520119364"));
     System.setIn(System.in);
   }
 
 
   @Test
-  public void validateAndCalculateSinhx() {
+  public void test_epowerx_finite() {
+    //Calculated value of e (Euler’s number) should be finite means e^1 should be finite
+    SinhFunction sinhFunction = new SinhFunction();
+    double result = sinhFunction.ePowerX(1.0);
+    Assert.assertFalse(Double.isNaN(result) && Double
+        .isInfinite(result)); // making sure that result is not infinite ,
   }
 
   @Test
