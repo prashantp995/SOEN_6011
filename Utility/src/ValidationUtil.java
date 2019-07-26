@@ -1,4 +1,4 @@
-class Validator {
+class ValidationUtil {
 
   static boolean validateInputRange(double userInput) {
     boolean result = true;

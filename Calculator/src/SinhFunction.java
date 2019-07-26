@@ -33,7 +33,7 @@ class SinhFunction {
     Scanner scanner = new Scanner(System.in);
     if (scanner.hasNextDouble()) {
       double x = scanner.nextDouble();
-      if (Validator.validateInputRange(x)) {
+      if (ValidationUtil.validateInputRange(x)) {
         //As per assumption consider only first 15 decimal points from input
         DecimalFormat df = new DecimalFormat(".###############");
         x = Double.parseDouble(df.format(x));
@@ -51,7 +51,7 @@ class SinhFunction {
   }
 
   public void validateAndCalculateSinhx(double x, double ePowerx, double ePowerMinusx) {
-    if (Validator.validateOutputRange(ePowerx) && Validator.validateOutputRange(ePowerMinusx)) {
+    if (ValidationUtil.validateOutputRange(ePowerx) && ValidationUtil.validateOutputRange(ePowerMinusx)) {
       double result = calculateSinh(ePowerx, ePowerMinusx);
       System.out.print(UIMessages.SUCCESS_MESSAGE + x + " is ");
       System.out.printf("%.15f", result);
@@ -65,8 +65,8 @@ class SinhFunction {
    * @return result of sinh based on input
    */
   public double calculateSinh(double ePowerx, double ePowerMinusx) {
-    if (Validator.validateOutputRange(ePowerx)) {
-      Validator.validateOutputRange(ePowerMinusx);
+    if (ValidationUtil.validateOutputRange(ePowerx)) {
+      ValidationUtil.validateOutputRange(ePowerMinusx);
     }
 
     return (ePowerx - ePowerMinusx) / divisor;
