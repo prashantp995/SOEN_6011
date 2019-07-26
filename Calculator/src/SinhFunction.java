@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 class SinhFunction {
 
-  private static final int maxSteps = 15;
+  static int maxSteps = 15;
   private static final double divisor = 2d;
 
   /**
@@ -22,7 +22,7 @@ class SinhFunction {
   double ePowerX(double x) {
     double result = 1;
 
-    for (int i = SinhFunction.maxSteps - 1; i > 0; --i) {
+    for (int i = SinhFunction.maxSteps; i > 0; --i) {
       result = 1 + x * result / i;
     }
 

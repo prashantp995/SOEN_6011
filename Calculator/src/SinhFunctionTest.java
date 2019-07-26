@@ -17,6 +17,7 @@ public class SinhFunctionTest {
   public void setUpStreams() {
     System.setOut(new PrintStream(outContent));
     System.setErr(new PrintStream(errContent));
+    SinhFunction.maxSteps = 20;
   }
 
   @After
@@ -28,7 +29,8 @@ public class SinhFunctionTest {
   @Test
   public void InitCalculation_invalidInput() {
     SinhFunction sinhFunction = new SinhFunction();
-    ByteArrayInputStream input = new ByteArrayInputStream("This is non number invalid input".getBytes());
+    ByteArrayInputStream input = new ByteArrayInputStream(
+        "This is non number invalid input".getBytes());
     System.setIn(input);
     sinhFunction.InitCalculation();
     Assert.assertTrue(UIMessages.ERROR_MESSAGE.equalsIgnoreCase(outContent.toString().trim()));
@@ -42,7 +44,9 @@ public class SinhFunctionTest {
         "1".getBytes());//input will be passed as number , not string
     System.setIn(input);
     sinhFunction.InitCalculation();
-    Assert.assertTrue(outContent.toString().trim().contains("1.17520119364"));
+    //expected result calculated from : https://keisan.casio.com/exec/system/1223039747
+    String expectedResult = String.valueOf(1.1752011936438);
+    Assert.assertTrue(outContent.toString().trim().contains(expectedResult));
     System.setIn(System.in);
   }
 
