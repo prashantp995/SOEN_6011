@@ -38,6 +38,18 @@ public class SinhFunctionTest {
   }
 
   @Test
+  public void testInitCalculationInvalidUpperBoundInput() {
+    SinhFunction sinhFunction = new SinhFunction();
+    ByteArrayInputStream input = new ByteArrayInputStream(
+        String.valueOf(2 * Double.MAX_VALUE).getBytes());
+    System.setIn(input);
+    sinhFunction.InitCalculation();
+    Assert
+        .assertTrue(UIMessages.ERROR_MESSAGE_RANGE.equalsIgnoreCase(outContent.toString().trim()));
+    System.setIn(System.in);
+  }
+
+  @Test
   public void testInitCalculationValidInput() {
     SinhFunction sinhFunction = new SinhFunction();
     ByteArrayInputStream input = new ByteArrayInputStream(

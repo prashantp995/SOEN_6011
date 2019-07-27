@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3860f4f6-50d2-40fd-9d73-90e663562254" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SOEN_6011_Summer_2019_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SOEN_6011_Summer_2019_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/out/production/UnitTest/ValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/out/production/UnitTest/ValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator/src/SinhFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/src/SinhFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTest/src/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTest/src/ValidatorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,14 +19,24 @@
     </option>
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$All_in_UnitTest__1_.ic" NAME="All in UnitTest (1) Coverage Results" MODIFIED="1564258952163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$SinhFunctionTest_InitCalculation_validInput.ic" NAME="SinhFunctionTest.InitCalculation_validInput Coverage Results" MODIFIED="1564101658019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$SinhFunction.ic" NAME="SinhFunction Coverage Results" MODIFIED="1563995455208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$SinhFunctionTest.ic" NAME="SinhFunctionTest Coverage Results" MODIFIED="1564009023339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$SinhFunctionTest_testInitCalculationInvalidUpperBoundInput.ic" NAME="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput Coverage Results" MODIFIED="1564258917170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$Main.ic" NAME="Main Coverage Results" MODIFIED="1564105431135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$SinhFunctionTest.ic" NAME="SinhFunctionTest Coverage Results" MODIFIED="1564257879406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$All_in_UnitTest.ic" NAME="All in UnitTest Coverage Results" MODIFIED="1564105113032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SOEN_6011_Summer_2019$C__Git_SOEN_6011_Summer_2019_Calculator_in_UnitTest.ic" NAME="C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest Coverage Results" MODIFIED="1564259196684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>SinhFunction</FILTER>
+      <FILTER>ValidationUtil</FILTER>
+    </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="220" />
+    <option name="myElementSize" value="229" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Git\SOEN_6011_Summer_2019\Calculator" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1896009727">
@@ -66,12 +71,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="44" />
-          <entry key="java" value="6442" />
+          <entry key="java" value="6723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6442" />
+          <entry key="JAVA" value="6723" />
           <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
@@ -82,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/src/SinhFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="203">
+              <caret line="43" column="57" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Calculator/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="-160">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
@@ -112,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitTest/src/ValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -130,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UIMessages/src/UIMessages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="180">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -139,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="62">
+              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,52 +245,6 @@
             </path>
             <path>
               <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UIMessages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UIMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UIMessages" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SOEN_6011_Summer_2019" type="462c0819:PsiDirectoryNode" />
-              <item name="Utility" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SOEN_6011_Summer_2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -302,13 +261,14 @@
     <property name="SearchEverywhereHistoryKey" value="soen*jar&#9;FILE&#9;file://C:/Git/SOEN_6011_Summer_2019/.idea/artifacts/SOEN_6011_Summer_2019_jar.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564238847603" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564260144188" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Calculator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -336,14 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SinhFunctionTest.calculateSinh">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Calculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -370,6 +323,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SinhFunction" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="ValidationUtil" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SinhFunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="PACKAGE_NAME" value="" />
@@ -388,30 +363,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidatorTest.validateInputRange_InvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidatorTest" />
-      <option name="METHOD_NAME" value="validateInputRange_InvalidInput" />
+      <option name="MAIN_CLASS_NAME" value="SinhFunctionTest" />
+      <option name="METHOD_NAME" value="testInitCalculationInvalidUpperBoundInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SinhFunctionTest" />
-      <item itemvalue="JUnit.All in UnitTest" />
-      <item itemvalue="JUnit.ValidatorTest.validateInputRange_InvalidInput" />
       <item itemvalue="JUnit.SinhFunctionTest.calculateSinh" />
+      <item itemvalue="JUnit.SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" />
+      <item itemvalue="JUnit.C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinhFunctionTest.calculateSinh" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ValidatorTest.validateInputRange_InvalidInput" />
+        <item itemvalue="JUnit.C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest" />
         <item itemvalue="JUnit.All in UnitTest" />
+        <item itemvalue="JUnit.SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" />
         <item itemvalue="JUnit.SinhFunctionTest" />
+        <item itemvalue="JUnit.SinhFunctionTest.calculateSinh" />
       </list>
     </recent_temporary>
   </component>
@@ -439,48 +413,47 @@
       <workItem from="1564008254271" duration="6481000" />
       <workItem from="1564068732751" duration="18487000" />
       <workItem from="1564103880992" duration="1867000" />
-      <workItem from="1564237136234" duration="1672000" />
+      <workItem from="1564237136234" duration="6813000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValidatorTest_validateInputRange_InvalidInput - 2019.07.25 at 21h 48m 18s.xml">
-      <configuration name="ValidatorTest.validateInputRange_InvalidInput" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 19m 22s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 41m 15s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 19m 50s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 41m 23s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 20m 10s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 41m 32s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 21m 39s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 41m 45s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 21m 51s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 42m 22s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="SinhFunctionTest_testInitCalculationInvalidUpperBoundInput - 2019.07.27 at 16h 21m 58s.xml">
+      <configuration name="SinhFunctionTest.testInitCalculationInvalidUpperBoundInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 44m 24s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="All_in_UnitTest - 2019.07.27 at 16h 22m 22s.xml">
+      <configuration name="All in UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 44m 33s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="All_in_UnitTest_(1) - 2019.07.27 at 16h 22m 33s.xml">
+      <configuration name="All in UnitTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 44m 48s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="C__Git_SOEN_6011_Summer_2019_Calculator_in_UnitTest - 2019.07.27 at 16h 25m 46s.xml">
+      <configuration name="C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SinhFunctionTest_calculateSinh - 2019.07.27 at 10h 45m 06s.xml">
-      <configuration name="SinhFunctionTest.calculateSinh" configurationId="JUnit" />
+    <history-entry file="C__Git_SOEN_6011_Summer_2019_Calculator_in_UnitTest - 2019.07.27 at 16h 26m 37s.xml">
+      <configuration name="C:\Git\SOEN_6011_Summer_2019\Calculator in UnitTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60104000" />
+    <option name="totallyTimeSpent" value="65245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -492,7 +465,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.29469272" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -515,10 +488,10 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="REPL" order="12" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.72080535" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27919462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -528,8 +501,8 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -551,7 +524,7 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="REPL" order="12" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Coverage" order="13" side_tool="true" visible="true" weight="0.3295302" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,15 +544,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java</url>
-          <line>64</line>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -690,20 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UIMessages/src/UIMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10580">
@@ -725,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator/src/SinhFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -744,15 +687,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTest/src/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="200">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/src/SinhFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIMessages/src/UIMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitTest/src/SinhFunctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        <state relative-caret-position="62">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
