@@ -4,10 +4,10 @@ public class ValidatorTest {
 
   @org.junit.Test
   public void validateInputRange_InvalidInput() {
-    double input_value = 2 * Double.MAX_VALUE;
-    double input_value_negative = -2 * Double.MAX_VALUE;
-    Assert.assertFalse(ValidationUtil.validateInputRange(input_value));
-    Assert.assertFalse(ValidationUtil.validateInputRange(input_value_negative));
+    double inputValue = 2 * Double.MAX_VALUE;
+    double inputValueNegative = -2 * Double.MAX_VALUE;
+    Assert.assertFalse(ValidationUtil.validateInputRange(inputValue));
+    Assert.assertFalse(ValidationUtil.validateInputRange(inputValueNegative));
   }
 
   @org.junit.Test

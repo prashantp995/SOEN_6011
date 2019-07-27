@@ -50,8 +50,9 @@ class SinhFunction {
 
   }
 
-  public void validateAndCalculateSinhx(double x, double ePowerx, double ePowerMinusx) {
-    if (ValidationUtil.validateOutputRange(ePowerx) && ValidationUtil.validateOutputRange(ePowerMinusx)) {
+  private void validateAndCalculateSinhx(double x, double ePowerx, double ePowerMinusx) {
+    if (ValidationUtil.validateOutputRange(ePowerx) && ValidationUtil
+        .validateOutputRange(ePowerMinusx)) {
       double result = calculateSinh(ePowerx, ePowerMinusx);
       System.out.print(UIMessages.SUCCESS_MESSAGE + x + " is ");
       System.out.printf("%.15f", result);
@@ -64,11 +65,7 @@ class SinhFunction {
    *
    * @return result of sinh based on input
    */
-  public double calculateSinh(double ePowerx, double ePowerMinusx) {
-    if (ValidationUtil.validateOutputRange(ePowerx)) {
-      ValidationUtil.validateOutputRange(ePowerMinusx);
-    }
-
+  double calculateSinh(double ePowerx, double ePowerMinusx) {
     return (ePowerx - ePowerMinusx) / divisor;
   }
 
