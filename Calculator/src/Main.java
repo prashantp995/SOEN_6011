@@ -6,7 +6,7 @@ public class Main {
     printWelcomeMessage();
     SinhFunction sinhFunction = new SinhFunction();
     try {
-      sinhFunction.InitCalculation();
+      sinhFunction.initCalculation();
       continueApplication(sinhFunction);
     } catch (Exception e) {
       System.out.println(UIMessages.ERROR_MESSAGE_PROGRAM_STOPPED);
@@ -23,7 +23,7 @@ public class Main {
         int choice = sc.nextInt();
         if (choice == 1) {
           System.out.println(UIMessages.INPUT_MESSAGE);
-          sinhFunction.InitCalculation();
+          sinhFunction.initCalculation();
         } else if (choice == 0) {
           System.exit(0);
         } else {

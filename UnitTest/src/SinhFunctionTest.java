@@ -32,7 +32,7 @@ public class SinhFunctionTest {
     ByteArrayInputStream input = new ByteArrayInputStream(
         "This is non number invalid input".getBytes());
     System.setIn(input);
-    sinhFunction.InitCalculation();
+    sinhFunction.initCalculation();
     Assert.assertTrue(UIMessages.ERROR_MESSAGE.equalsIgnoreCase(outContent.toString().trim()));
     System.setIn(System.in);
   }
@@ -43,7 +43,7 @@ public class SinhFunctionTest {
     ByteArrayInputStream input = new ByteArrayInputStream(
         String.valueOf(2 * Double.MAX_VALUE).getBytes());
     System.setIn(input);
-    sinhFunction.InitCalculation();
+    sinhFunction.initCalculation();
     Assert
         .assertTrue(UIMessages.ERROR_MESSAGE_RANGE.equalsIgnoreCase(outContent.toString().trim()));
     System.setIn(System.in);
@@ -55,7 +55,7 @@ public class SinhFunctionTest {
     ByteArrayInputStream input = new ByteArrayInputStream(
         "1".getBytes());//input will be passed as number , not string
     System.setIn(input);
-    sinhFunction.InitCalculation();
+    sinhFunction.initCalculation();
     //expected result calculated from : https://keisan.casio.com/exec/system/1223039747
     String expectedResult = String.valueOf(1.1752011936438);
     Assert.assertTrue(outContent.toString().trim().contains(expectedResult));
@@ -67,7 +67,7 @@ public class SinhFunctionTest {
   public void testEPowerXFinite() {
     //Calculated value of e (Euler’s number) should be finite means e^1 should be finite
     SinhFunction sinhFunction = new SinhFunction();
-    double result = sinhFunction.ePowerX(1.0);
+    double result = sinhFunction.epowerx(1.0);
     Assert.assertFalse(Double.isNaN(result) && Double
         .isInfinite(result)); // making sure that result is not infinite ,
   }
@@ -75,8 +75,8 @@ public class SinhFunctionTest {
   @Test
   public void calculateSinh() {
     SinhFunction sinhFunction = new SinhFunction();
-    double ePowerX = sinhFunction.ePowerX(2.0);
-    double ePowerMinusX = sinhFunction.ePowerX(-2.0);
+    double ePowerX = sinhFunction.epowerx(2.0);
+    double ePowerMinusX = sinhFunction.epowerx(-2.0);
     double expectedResult = 3.6268604078469773;
     Assert.assertEquals(expectedResult, sinhFunction.calculateSinh(ePowerX, ePowerMinusX), 0.0);
   }
