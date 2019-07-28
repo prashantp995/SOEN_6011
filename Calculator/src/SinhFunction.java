@@ -41,11 +41,11 @@ class SinhFunction {
         double epowerNegativeX = epowerx(-x);
         validateAndCalculateSinhx(x, epowerX, epowerNegativeX);
       } else {
-        System.out.println(UIMessages.ERROR_MESSAGE_RANGE);
+        System.out.println(UserInterfaceMessages.ERROR_MESSAGE_RANGE);
       }
 
     } else {
-      System.out.println(UIMessages.ERROR_MESSAGE);
+      System.out.println(UserInterfaceMessages.ERROR_MESSAGE);
     }
 
   }
@@ -54,7 +54,7 @@ class SinhFunction {
     if (ValidationUtil.validateOutputRange(epowerX) && ValidationUtil
         .validateOutputRange(epowerminusX)) {
       double result = calculateSinh(epowerX, epowerminusX);
-      System.out.print(UIMessages.SUCCESS_MESSAGE + x + " is ");
+      System.out.print(UserInterfaceMessages.SUCCESS_MESSAGE + x + " is ");
       System.out.printf("%.15f", result);
     }
   }

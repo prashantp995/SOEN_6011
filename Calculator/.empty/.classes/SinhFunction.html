@@ -115,11 +115,11 @@
 <b class="fc"><i>41</i>&nbsp;        double ePowerMinusx = ePowerX(-x);</b>
 <b class="fc"><i>42</i>&nbsp;        validateAndCalculateSinhx(x, ePowerx, ePowerMinusx);</b>
 <b class="fc"><i>43</i>&nbsp;      } else {</b>
-<b class="fc"><i>44</i>&nbsp;        System.out.println(UIMessages.ERROR_MESSAGE_RANGE);</b>
+<b class="fc"><i>44</i>&nbsp;        System.out.println(UserInterfaceMessages.ERROR_MESSAGE_RANGE);</b>
 <i>45</i>&nbsp;      }
 <i>46</i>&nbsp;
 <b class="fc"><i>47</i>&nbsp;    } else {</b>
-<b class="fc"><i>48</i>&nbsp;      System.out.println(UIMessages.ERROR_MESSAGE);</b>
+<b class="fc"><i>48</i>&nbsp;      System.out.println(UserInterfaceMessages.ERROR_MESSAGE);</b>
 <i>49</i>&nbsp;    }
 <i>50</i>&nbsp;
 <b class="fc"><i>51</i>&nbsp;  }</b>
@@ -128,7 +128,7 @@
 <b class="fc"><i>54</i>&nbsp;    if (ValidationUtil.validateOutputRange(ePowerx) &amp;&amp; ValidationUtil</b>
 <b class="fc"><i>55</i>&nbsp;        .validateOutputRange(ePowerMinusx)) {</b>
 <b class="fc"><i>56</i>&nbsp;      double result = calculateSinh(ePowerx, ePowerMinusx);</b>
-<b class="fc"><i>57</i>&nbsp;      System.out.print(UIMessages.SUCCESS_MESSAGE + x + &quot; is &quot;);</b>
+<b class="fc"><i>57</i>&nbsp;      System.out.print(UserInterfaceMessages.SUCCESS_MESSAGE + x + &quot; is &quot;);</b>
 <b class="fc"><i>58</i>&nbsp;      System.out.printf(&quot;%.15f&quot;, result);</b>
 <i>59</i>&nbsp;    }
 <b class="fc"><i>60</i>&nbsp;  }</b>

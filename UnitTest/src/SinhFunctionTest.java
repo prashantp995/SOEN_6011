@@ -8,22 +8,18 @@ import org.junit.Test;
 
 public class SinhFunctionTest {
 
-  private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-  private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
+  private final ByteArrayOutputStream outData = new ByteArrayOutputStream();
   private final PrintStream originalOut = System.out;
-  private final PrintStream originalErr = System.err;
 
   @Before
   public void setUpStreams() {
-    System.setOut(new PrintStream(outContent));
-    System.setErr(new PrintStream(errContent));
+    System.setOut(new PrintStream(outData));
     SinhFunction.maxSteps = 20;
   }
 
   @After
   public void restoreStreams() {
     System.setOut(originalOut);
-    System.setErr(originalErr);
   }
 
   @Test
@@ -33,7 +29,8 @@ public class SinhFunctionTest {
         "This is non number invalid input".getBytes());
     System.setIn(input);
     sinhFunction.initCalculation();
-    Assert.assertTrue(UIMessages.ERROR_MESSAGE.equalsIgnoreCase(outContent.toString().trim()));
+    Assert.assertTrue(
+        UserInterfaceMessages.ERROR_MESSAGE.equalsIgnoreCase(outData.toString().trim()));
     System.setIn(System.in);
   }
 
@@ -44,8 +41,8 @@ public class SinhFunctionTest {
         String.valueOf(2 * Double.MAX_VALUE).getBytes());
     System.setIn(input);
     sinhFunction.initCalculation();
-    Assert
-        .assertTrue(UIMessages.ERROR_MESSAGE_RANGE.equalsIgnoreCase(outContent.toString().trim()));
+    Assert.assertTrue(UserInterfaceMessages.ERROR_MESSAGE_RANGE.equalsIgnoreCase(
+        outData.toString().trim()));
     System.setIn(System.in);
   }
 
@@ -58,7 +55,7 @@ public class SinhFunctionTest {
     sinhFunction.initCalculation();
     //expected result calculated from : https://keisan.casio.com/exec/system/1223039747
     String expectedResult = String.valueOf(1.1752011936438);
-    Assert.assertTrue(outContent.toString().trim().contains(expectedResult));
+    Assert.assertTrue(outData.toString().trim().contains(expectedResult));
     System.setIn(System.in);
   }
 
@@ -73,11 +70,11 @@ public class SinhFunctionTest {
   }
 
   @Test
-  public void calculateSinh() {
+  public void testcalculateSinh() {
     SinhFunction sinhFunction = new SinhFunction();
-    double ePowerX = sinhFunction.epowerx(2.0);
-    double ePowerMinusX = sinhFunction.epowerx(-2.0);
+    double epowerX = sinhFunction.epowerx(2.0);
+    double epowerMinusX = sinhFunction.epowerx(-2.0);
     double expectedResult = 3.6268604078469773;
-    Assert.assertEquals(expectedResult, sinhFunction.calculateSinh(ePowerX, ePowerMinusX), 0.0);
+    Assert.assertEquals(expectedResult, sinhFunction.calculateSinh(epowerX, epowerMinusX), 0.0);
   }
 }
