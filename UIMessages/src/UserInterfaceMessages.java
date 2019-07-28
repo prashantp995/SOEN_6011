@@ -5,7 +5,7 @@ class UserInterfaceMessages {
       + "This Program will calculate value of Sinh(x) for given x";
   static final String INPUT_MESSAGE = "Please enter any number as input\n";
   static final String ERROR_MESSAGE = "Given input is in valid, Input should be number only";
-  static final String SUCCESS_MESSAGE = "Output for the given input ";
+  static final String SUCCESS_MESSAGE = "Output of calculation of sinh for the given input ";
   static final String OPTIONS_MESSAGE = "Please enter 1 to continue\nPlease enter 0 to "
       + "exit from calculator program";
   static final String ERROR_MESSAGE_RANGE =
