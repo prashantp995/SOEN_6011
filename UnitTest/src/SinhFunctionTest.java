@@ -22,6 +22,10 @@ public class SinhFunctionTest {
     System.setOut(originalOut);
   }
 
+  /**
+   * This test verifies if user inputs invalid value (alphabet/special characters) then function is
+   * returning proper error message or not
+   */
   @Test
   public void testInitCalculationInvalidInput() {
     SinhFunction sinhFunction = new SinhFunction();
@@ -34,6 +38,10 @@ public class SinhFunctionTest {
     System.setIn(System.in);
   }
 
+  /**
+   * This test verifies when user inputs valid number value but more than what datatype can handle
+   * then function is returning proper error message or not.
+   */
   @Test
   public void testInitCalculationInvalidUpperBoundInput() {
     SinhFunction sinhFunction = new SinhFunction();
@@ -46,6 +54,10 @@ public class SinhFunctionTest {
     System.setIn(System.in);
   }
 
+  /**
+   * This tests verifies if user inputs valid number value then function is returning proper valid
+   * calculated value.
+   */
   @Test
   public void testInitCalculationValidInput() {
     SinhFunction sinhFunction = new SinhFunction();
@@ -60,6 +72,9 @@ public class SinhFunctionTest {
   }
 
 
+  /**
+   * This test verifies calculated value of e Euler’s number is finite or not.
+   */
   @Test
   public void testEPowerXFinite() {
     //Calculated value of e (Euler’s number) should be finite means e^1 should be finite
@@ -70,6 +85,9 @@ public class SinhFunctionTest {
         .isInfinite(result)); // making sure that result is not infinite ,
   }
 
+  /**
+   * This test validate calculatesinh function with valid input
+   */
   @Test
   public void testCalculateSinh() {
     SinhFunction sinhFunction = new SinhFunction();
@@ -79,6 +97,10 @@ public class SinhFunctionTest {
     Assert.assertEquals(expectedResult, sinhFunction.calculateSinh(epowerX, epowerMinusX), 0.0);
   }
 
+  /**
+   * When user inputs valid value but decimal points are more than 15 then function should take only
+   * first 15 decimal points as significant decimal points.
+   */
   @Test
   public void testSignificantDecimalPoints() {
     SinhFunction sinhFunction = new SinhFunction();
