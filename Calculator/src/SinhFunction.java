@@ -38,8 +38,8 @@ class SinhFunction {
         DecimalFormat df = new DecimalFormat(".###############");
         x = Double.parseDouble(df.format(x));
         double epowerX = epowerx(x);
-        double epowerNegativex = epowerx(-x);
-        validateAndCalculateSinhx(x, epowerX, epowerNegativex);
+        double epowerNegativeX = epowerx(-x);
+        validateAndCalculateSinhx(x, epowerX, epowerNegativeX);
       } else {
         System.out.println(UIMessages.ERROR_MESSAGE_RANGE);
       }
