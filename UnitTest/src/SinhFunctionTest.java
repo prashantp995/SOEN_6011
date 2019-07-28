@@ -65,16 +65,30 @@ public class SinhFunctionTest {
     //Calculated value of e (Euler’s number) should be finite means e^1 should be finite
     SinhFunction sinhFunction = new SinhFunction();
     double result = sinhFunction.epowerx(1.0);
+    Assert.assertEquals(result, 2.718281828459045, 0.0);
     Assert.assertFalse(Double.isNaN(result) && Double
         .isInfinite(result)); // making sure that result is not infinite ,
   }
 
   @Test
-  public void testcalculateSinh() {
+  public void testCalculateSinh() {
     SinhFunction sinhFunction = new SinhFunction();
     double epowerX = sinhFunction.epowerx(2.0);
     double epowerMinusX = sinhFunction.epowerx(-2.0);
     double expectedResult = 3.6268604078469773;
     Assert.assertEquals(expectedResult, sinhFunction.calculateSinh(epowerX, epowerMinusX), 0.0);
+  }
+
+  @Test
+  public void testSignificantDecimalPoints() {
+    SinhFunction sinhFunction = new SinhFunction();
+    ByteArrayInputStream input = new ByteArrayInputStream(
+        "1.111111111111111222222222222222222222"
+            .getBytes());//input will be passed as number , not string
+    System.setIn(input);
+    sinhFunction.initCalculation();
+    Assert.assertTrue(outData.toString().trim().contains("1.111111111111111"));
+    Assert.assertFalse(outData.toString().trim().contains("222222222222222222222"));
+    System.setIn(System.in);
   }
 }
