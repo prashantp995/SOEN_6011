@@ -23,8 +23,8 @@ public class SinhFunctionTest {
   }
 
   /**
-   * This test verifies if user inputs invalid value (alphabet/special characters) then function is
-   * returning proper error message or not
+   * Test for : EF_F3_D1_REQ-2 This test verifies if user inputs invalid value (alphabet/special
+   * characters) then function is returning proper error message or not
    */
   @Test
   public void testInitCalculationInvalidInput() {
@@ -39,8 +39,8 @@ public class SinhFunctionTest {
   }
 
   /**
-   * This test verifies when user inputs valid number value but more than what datatype can handle
-   * then function is returning proper error message or not.
+   * Test for : EF_F3_D1_ASSUMPTION-1 This test verifies when user inputs valid number value but
+   * more than what datatype can handle then function is returning proper error message or not.
    */
   @Test
   public void testInitCalculationInvalidUpperBoundInput() {
@@ -55,8 +55,8 @@ public class SinhFunctionTest {
   }
 
   /**
-   * This tests verifies if user inputs valid number value then function is returning proper valid
-   * calculated value.
+   * Test for : EF_F3_D1_REQ-1 . This tests verifies if user inputs valid number value then function
+   * is returning proper valid calculated value.
    */
   @Test
   public void testInitCalculationValidInput() {
@@ -73,7 +73,8 @@ public class SinhFunctionTest {
 
 
   /**
-   * This test verifies calculated value of e Euler’s number is finite or not.
+   * Test for : EF_F3_D1_REQ-3 ,EF_F3_D1_ASSUMPTION-3. This test verifies calculated value of e
+   * Euler’s number is finite or not using x =1 so that it test for EF_F3_D1_ASSUMPTION-3 too.
    */
   @Test
   public void testEPowerXFinite() {
@@ -86,7 +87,7 @@ public class SinhFunctionTest {
   }
 
   /**
-   * This test validate calculatesinh function with valid input
+   * Test for :EF_F3_D1_REQ-1. This test validate calculatesinh function with valid input
    */
   @Test
   public void testCalculateSinh() {
@@ -98,8 +99,8 @@ public class SinhFunctionTest {
   }
 
   /**
-   * When user inputs valid value but decimal points are more than 15 then function should take only
-   * first 15 decimal points as significant decimal points.
+   * Test for : EF_F3_D1_ASSUMPTION-2. When user inputs valid value but decimal points are more than
+   * 15 then function should take only first 15 decimal points as significant decimal points.
    */
   @Test
   public void testSignificantDecimalPoints() {

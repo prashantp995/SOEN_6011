@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/40046876_SinhFunction_Java.iml" filepath="$PROJECT_DIR$/.idea/40046876_SinhFunction_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/SOEN_6011_Summer_2019.iml" filepath="$PROJECT_DIR$/.idea/SOEN_6011_Summer_2019.iml" />
       <module fileurl="file://$PROJECT_DIR$/UIMessages/UIMessages.iml" filepath="$PROJECT_DIR$/UIMessages/UIMessages.iml" />
       <module fileurl="file://$PROJECT_DIR$/UnitTest/UnitTest.iml" filepath="$PROJECT_DIR$/UnitTest/UnitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Utility/Utility.iml" filepath="$PROJECT_DIR$/Utility/Utility.iml" />
